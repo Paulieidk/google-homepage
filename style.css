@@ -1,23 +1,53 @@
-.logo-container {
+::before,
+::after {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+.main {
     display: flex;
-    justify-content: center;
+    flex-direction: column;
     align-items: center;
-    height: 800px;
-    width: 100%;
+    justify-content: center;
+    height: 55vh;
+    min-height: 300px;
+    margin-top: 50px;
 }
 
-.logo-image {
-    width:fit-content;
+.logo {
+    width: 272px;
     height: 92px;
-    width: 279px;
+    margin-bottom: 26px;
 }
 
-.search-bar {
-    position: absolute;
-    top: 480px;
-    right: 1192px;
+.searchbar {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 580px;
+    height: 45px;
+    padding: 2px;
+    border: 1px solid #ddd;
+    border-radius: 30px;
+    
 }
-input[type=text] {
+
+.search-icon {
+    width: 20px;
+    height: 20px;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.search-input {
+    width: 100%;
+    margin-right: 10px;
+    height: 50%;
+}
+
+
+/* input[type=text] {
     width: 100%;
     background-repeat: no-repeat;
     padding: 12px 100px;
@@ -26,7 +56,7 @@ input[type=text] {
     background-image: url("https://upload.wikimedia.org/wikipedia/commons/thumb/7/7e/Vector_search_icon.svg/1200px-Vector_search_icon.svg.png"), url("https://upload.wikimedia.org/wikipedia/commons/thumb/e/e8/Google_mic.svg/1200px-Google_mic.svg.png");
     background-position: 10px, 550px;
     background-size: 2%;
-}
+} */
 
 
 
@@ -143,4 +173,6 @@ input[type=text] {
 body {
     background-color: white;
     font-family: Arial, Helvetica, sans-serif;
+    line-height: 1.6;
+    margin-bottom: 100px;
 }
