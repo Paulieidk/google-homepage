@@ -1,0 +1,146 @@
+.logo-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 800px;
+    width: 100%;
+}
+
+.logo-image {
+    width:fit-content;
+    height: 92px;
+    width: 279px;
+}
+
+.search-bar {
+    position: absolute;
+    top: 480px;
+    right: 1192px;
+}
+input[type=text] {
+    width: 100%;
+    background-repeat: no-repeat;
+    padding: 12px 100px;
+    border: 1px solid #ddd;
+    border-radius: 20px;
+    background-image: url("https://upload.wikimedia.org/wikipedia/commons/thumb/7/7e/Vector_search_icon.svg/1200px-Vector_search_icon.svg.png"), url("https://upload.wikimedia.org/wikipedia/commons/thumb/e/e8/Google_mic.svg/1200px-Google_mic.svg.png");
+    background-position: 10px, 550px;
+    background-size: 2%;
+}
+
+
+
+.topleft-nav-hbar {
+    list-style-type: none;
+    position: absolute; 
+    margin: 0;
+    padding: 0;
+    top: 6px; 
+    left: 10px; 
+   overflow: hidden;
+}
+
+.topleft-nav-li {
+    float: left;
+    
+}
+
+.topleft-nav-li a {
+    display: block;
+    color: #666;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+
+
+
+.topright-nav-hbar {
+    list-style-type: none;
+    position: absolute; 
+    margin: 0;
+    padding: 0;
+    top: 6px; 
+    right: 80px; 
+    overflow: hidden;
+  }
+  
+  .topright-nav-li {
+    float: left;
+      
+  }
+  
+  .topright-nav-li a {
+    display: block;
+    color: #666;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+
+
+
+/*
+  
+  .bottomleft-nav-hbar {
+    list-style-type: none;
+    position: absolute; 
+    margin: 0;
+    padding: 0;
+    bottom: 1px; 
+    left: 1px; 
+    overflow: hidden;
+    background-color: rgb(185, 185, 185);
+  }
+  
+  .bottomleft-nav-li {
+    float: left;
+      
+  }
+  
+  .bottomleft-nav-li a {
+    display: block;
+    color: #666;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+
+*/
+
+
+.footer {
+    border-top: solid 1px #8888883f;
+    width: 100%;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    background-color: #eeeeee;
+    color: #000000b6;
+}
+
+.footer-items {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.footer-items li {
+    float: left;
+    display: list-item;    
+}
+
+.footer-items li a {
+    display: block;
+    color: #666;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+body {
+    background-color: white;
+    font-family: Arial, Helvetica, sans-serif;
+}
